@@ -229,10 +229,7 @@ p {
   height: 4px;
   width: 100%;
   margin-bottom: 5px;
-  background-color: var(
-    --color-primary,
-    black
-  ); /* дефолт черный, если переменная не задана */
+  background-color: #2a7d2e;
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
