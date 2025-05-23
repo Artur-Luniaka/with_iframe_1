@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "News - Fairway Solitaire",
+    "description": "Latest updates, tournaments and news about Fairway Solitaire - the classic cards game."
+  },
+  "header": {
+    "title": "Fairway News & Updates",
+    "subtitle": "Stay up to date with the latest developments, tournaments, and community events"
+  },
+  "featured": {
+    "title": "Summer Tournament Series Announced",
+    "excerpt": "Get ready for the biggest Fairway Solitaire event of the year! The Summer Tournament Series will feature weekly challenges, exclusive rewards, and a grand prize for the overall champion. Players from around the world will compete for the coveted Golden Club trophy and exclusive in-game items.",
+    "image": "img/feature-1.jpg",
+    "date": "May 15, 2025",
+    "link": "#"
+  },
+  "articles": [
+    {
+      "title": "New Desert Course Pack Released",
+      "excerpt": "Explore five new challenging desert-themed courses with unique hazards and special desert club power-ups.",
+      "image": "img/win-1.png",
+      "date": "May 10, 2025",
+      "link": "#"
+    },
+    {
+      "title": "Pro Tips: Mastering the Water Hazards",
+      "excerpt": "Professional player Sandra Kim shares her strategies for dealing with the tricky water hazard cards.",
+      "image": "img/win-2.png",
+      "date": "May 5, 2025",
+      "link": "#"
+    },
+    {
+      "title": "Community Spotlight: Custom Course Creator",
+      "excerpt": "Meet John Davis, the fan who created the popular 'Mountain Challenge' custom course now featured in the game.",
+      "image": "img/win-3.png",
+      "date": "April 28, 2025",
+      "link": "#"
+    }
+  ],
+  "tournaments": {
+    "title": "Upcoming Tournaments",
+    "subtitle": "Mark your calendar for these exciting competitive events",
+    "items": [
+      {
+        "title": "Summer Championship Qualifier",
+        "date": "June 1-7, 2025",
+        "description": "The first qualifying round for the Summer Championship. Top 100 players advance to the semifinals.",
+        "icon": "img/mechanic-1.jpg"
+      },
+      {
+        "title": "Weekend Blitz Tournament",
+        "date": "May 25-26, 2025",
+        "description": "Fast-paced tournament with special speed bonus scoring. Complete courses as quickly as possible!",
+        "icon": "img/mechanic-2.jpg"
+      },
+      {
+        "title": "Pro-Am Challenge",
+        "date": "May 20, 2025",
+        "description": "Team up with a professional player for this special team-based tournament with shared scoring.",
+        "icon": "img/mechanic-3.jpg"
+      },
+      {
+        "title": "Hazard Masters Invitational",
+        "date": "May 18, 2025",
+        "description": "By invitation only. This tournament features courses with extra hazards and limited power-ups.",
+        "icon": "img/mechanic-4.jpg"
+      }
+    ]
+  }
+}

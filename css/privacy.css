@@ -1,0 +1,5 @@
+/* Privacy page specific styles */
+
+.privacy-page {
+    padding: var(--spacing-lg) 0;
+}

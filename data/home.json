@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Fairway Solitaire - Classic Cards Game",
+    "description": "Play the classic Fairway Solitaire card game - where golf meets solitaire for a unique gaming experience!"
+  },
+  "hero": {
+    "backgroundImage": "img/hero-bg.jpg",
+    "title": "Fairway Solitaire",
+    "subtitle": "Where Golf Meets Cards in a Classic Game of Strategy and Skill"
+  },
+  "howToPlay": {
+    "title": "How to Play",
+    "subtitle": "Master the greens and the cards with these simple steps to play Fairway Solitaire",
+    "steps": [
+      {
+        "title": "Clear the Course",
+        "description": "Remove cards from the tableau by selecting cards that are one higher or lower than the current card on the waste pile."
+      },
+      {
+        "title": "Use Golf Clubs",
+        "description": "Collect and use special golf clubs to remove difficult cards and clear obstacles from your path."
+      },
+      {
+        "title": "Plan Your Strategy",
+        "description": "Look ahead and plan your moves carefully to create long chains of consecutive cards for bonus points."
+      },
+      {
+        "title": "Beat the Hazards",
+        "description": "Watch out for sand traps and water hazards that can block your progress through the course."
+      },
+      {
+        "title": "Complete the Course",
+        "description": "Clear all cards from the tableau to complete the hole and move on to the next challenging course."
+      },
+      {
+        "title": "Earn Trophies",
+        "description": "Collect trophies and achievements by completing special challenges and beating your high scores."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Player Testimonials",
+    "subtitle": "See what our community of players has to say about Fairway Solitaire"
+  },
+  "mechanics": {
+    "title": "Solitaire Mechanics",
+    "subtitle": "Discover the unique gameplay elements that make Fairway Solitaire special",
+    "items": [
+      {
+        "title": "Card Sequencing",
+        "description": "Cards can be played in ascending or descending order, giving you more options for strategic play than traditional solitaire games.",
+        "icon": "img/mechanic-1.jpg"
+      },
+      {
+        "title": "Golf Club Power-ups",
+        "description": "Collect special golf clubs throughout the game that act as power-ups, helping you remove troublesome cards or create new opportunities.",
+        "icon": "img/mechanic-2.jpg"
+      },
+      {
+        "title": "Course Hazards",
+        "description": "Navigate through sand traps, water hazards, and rough terrain that add challenging obstacles to your card-clearing journey.",
+        "icon": "img/mechanic-3.jpg"
+      },
+      {
+        "title": "Bonus Scoring",
+        "description": "Create long chains of consecutive cards to earn bonus points and multipliers that can dramatically increase your score.",
+        "icon": "img/mechanic-4.jpg"
+      }
+    ]
+  },
+  "strategies": {
+    "title": "Winning Strategies",
+    "subtitle": "Master these key strategies to improve your game and climb the leaderboards",
+    "items": [
+      {
+        "title": "Plan Ahead",
+        "description": "Always look at the entire tableau before making your first move. Planning several moves ahead is key to creating long chains.",
+        "icon": "img/win-1.png"
+      },
+      {
+        "title": "Save Your Clubs",
+        "description": "Don't use your golf clubs immediately. Save them for situations where you're truly stuck or to clear particularly valuable cards.",
+        "icon": "img/win-2.png"
+      },
+      {
+        "title": "Target Hazards First",
+        "description": "Whenever possible, clear hazard cards early in the game before they can block your progress later on.",
+        "icon": "img/win-3.png"
+      }
+    ]
+  },
+  "challenge": {
+    "title": "Fairway Challenge",
+    "subtitle": "Ready to test your skills? Play Fairway Solitaire right here!",
+    "description": "Experience the perfect blend of golf and solitaire in this addictive card game. Clear the course, use your golf clubs wisely, and aim for the highest score!"
+  }
+}

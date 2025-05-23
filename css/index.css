@@ -1,0 +1,344 @@
+/* Home page specific styles */
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  height: 80vh;
+  min-height: 500px;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-light);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: var(--spacing-lg);
+  color: var(--color-light);
+}
+
+.hero-btn {
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-large);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-medium);
+}
+
+/* Section styles */
+.home-section {
+  padding: var(--spacing-xl) 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-primary);
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: var(--color-secondary);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* How to Play section */
+.how-to-play {
+  background-color: white;
+}
+
+.steps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: var(--spacing-lg);
+}
+
+.step-card {
+  flex: 0 0 calc(33.333% - var(--spacing-md));
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-md);
+  background-color: var(--color-light);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-small);
+  transition: transform var(--transition-medium),
+    box-shadow var(--transition-medium);
+}
+
+.step-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-medium);
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: var(--spacing-md);
+}
+
+.step-title {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Testimonials section */
+.testimonials {
+  background-color: var(--color-light);
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/golf-pattern.png");
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.testimonials-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonial-card {
+  flex: 0 0 calc(50% - var(--spacing-md));
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-medium);
+  position: relative;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: var(--spacing-md);
+  position: relative;
+  padding-left: var(--spacing-md);
+}
+
+.testimonial-text::before {
+  content: '"';
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  font-size: 3rem;
+  color: var(--color-primary);
+  opacity: 0.3;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+}
+
+.author-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: var(--spacing-md);
+  object-fit: cover;
+}
+
+.author-name {
+  font-weight: bold;
+}
+
+.author-title {
+  font-size: var(--font-size-small);
+  color: var(--color-secondary);
+}
+
+/* Solitaire Mechanics section */
+.solitaire-mechanics {
+  background-color: white;
+}
+
+.mechanics-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mechanic-card {
+  flex: 0 0 calc(50% - var(--spacing-md));
+  margin-bottom: var(--spacing-lg);
+  display: flex;
+}
+
+.mechanic-icon {
+  flex: 0 0 80px;
+  height: 80px;
+  background-color: var(--color-primary);
+  border-radius: var(--border-radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: var(--spacing-md);
+}
+
+.mechanic-icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.mechanic-content {
+  flex: 1;
+}
+
+.mechanic-title {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-primary);
+}
+
+/* Winning Strategies section */
+.winning-strategies {
+  background-color: var(--color-light);
+}
+
+.strategies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.strategy-card {
+  flex: 0 0 calc(33.333% - var(--spacing-md));
+  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background-color: white;
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-small);
+  text-align: center;
+  transition: transform var(--transition-medium);
+}
+
+.strategy-card:hover {
+  transform: translateY(-5px);
+}
+
+.strategy-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto var(--spacing-md);
+}
+
+.strategy-title {
+  font-size: 1.2rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-primary);
+}
+
+/* Fairway Challenge section */
+.fairway-challenge {
+  background-color: white;
+  text-align: center;
+}
+
+.challenge-description {
+  max-width: 800px;
+  margin: 0 auto var(--spacing-lg);
+}
+
+.game-container {
+  max-width: 1152px;
+  margin: 0 auto;
+  box-shadow: var(--shadow-large);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.game-container iframe {
+  display: block;
+  border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .step-card,
+  .strategy-card {
+    flex: 0 0 calc(50% - var(--spacing-md));
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-card,
+  .mechanic-card {
+    flex: 0 0 100%;
+  }
+
+  .game-container iframe {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .step-card,
+  .strategy-card {
+    flex: 0 0 100%;
+  }
+
+  .hero-section {
+    height: 60vh;
+  }
+}

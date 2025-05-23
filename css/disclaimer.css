@@ -1,0 +1,5 @@
+/* Disclaimer page specific styles */
+
+.disclaimer-page {
+    padding: var(--spacing-lg) 0;
+}

@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "Contact Us - Fairway Solitaire",
+    "description": "Get in touch with the Fairway Solitaire team for support, feedback or partnership opportunities."
+  },
+  "header": {
+    "title": "Let's Talk Fairway!",
+    "subtitle": "Have questions, feedback, or just want to share your love for the game? We'd love to hear from you."
+  },
+  "form": {
+    "title": "Send Us a Message",
+    "nameLabel": "Your Name",
+    "emailLabel": "Your Email",
+    "messageLabel": "Your Message",
+    "submitButton": "Send Message"
+  },
+  "info": {
+    "title": "Contact Information",
+    "addressLabel": "Address",
+    "address": "290 Bremner Blvd, Toronto, ON M5V 3L9, Canada",
+    "phoneLabel": "Phone",
+    "phone": "+1 (416) 555-7890",
+    "emailLabel": "Email",
+    "email": "contact@domain.com",
+    "hoursLabel": "Business Hours",
+    "hours": "Monday - Friday: 9am - 5pm EST"
+  },
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2775660191013!2d-79.39594492346177!3d43.64254595260046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d68bf33a9b%3A0x15edd8c4de1c7581!2sCN%20Tower!5e0!3m2!1sen!2sca!4v1684861837022!5m2!1sen!2sca"
+  }
+}

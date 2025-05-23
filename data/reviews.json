@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "name": "Michael Johnson",
+      "title": "Avid Player",
+      "text": "Fairway Solitaire is the perfect blend of golf and cards. I've been playing for years and it never gets old. The strategic depth keeps me coming back for more!"
+    },
+    {
+      "name": "Sarah Williams",
+      "title": "Tournament Champion",
+      "text": "As someone who's won several online tournaments, I can say that this game rewards skill and planning. The balance between luck and strategy is perfect."
+    },
+    {
+      "name": "David Chen",
+      "title": "Casual Gamer",
+      "text": "I'm not usually into card games, but Fairway Solitaire hooked me from day one. It's easy to learn but has enough depth to keep me challenged."
+    },
+    {
+      "name": "Emily Rodriguez",
+      "title": "Mobile Gaming Enthusiast",
+      "text": "The mobile version is fantastic for quick games during my commute. The touch controls are intuitive and the game runs smoothly even on my older phone."
+    }
+  ]
+}
