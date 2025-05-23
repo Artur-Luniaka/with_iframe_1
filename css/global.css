@@ -208,30 +208,28 @@ p {
 }
 
 .mobile-menu-toggle {
-  position: relative;
-  z-index: 1000;
   background: none;
   border: none;
   cursor: pointer;
   width: 40px;
-  height: 30px; /* можно и 40px */
+  height: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* выравниваем по центру по вертикали */
+  justify-content: center;
   padding: 0;
-  gap: 6px; /* промежуток между полосками */
+  gap: 6px;
 
   @media (min-width: 768px) {
     display: none;
   }
 }
 
-.mobile-menu-toggle span {
-  display: flex;
+.bar {
+  display: block;
   height: 4px;
   width: 100%;
   margin-bottom: 5px;
-  background-color: #2a7d2e;
+  background-color: var(--color-primary);
   border-radius: 2px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
