@@ -208,6 +208,8 @@ p {
 }
 
 .mobile-menu-toggle {
+  position: relative;
+  z-index: 1000;
   background: none;
   border: none;
   cursor: pointer;
@@ -225,7 +227,7 @@ p {
 }
 
 .mobile-menu-toggle span {
-  display: block;
+  display: flex;
   height: 4px;
   width: 100%;
   margin-bottom: 5px;
